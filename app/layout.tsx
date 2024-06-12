@@ -25,6 +25,12 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
         <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
+        {/* Open Graph meta tags */}
+        <meta property="og:title" content="Hamza's Portfolio" />
+        <meta property="og:description" content="Modern & Minimal Portfolio" />
+        <meta property="og:image" content="https://hamzairshad.com/android-chrome-512x512.png" />
+        <meta property="og:url" content="https://hamzairshad.com" />
+        <meta property="og:type" content="website" />
       </head>
       <body className={inter.className}>
         <ThemeProvider

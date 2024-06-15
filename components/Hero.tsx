@@ -26,7 +26,7 @@ const Hero = () => {
                     words="Transforming Concepts into Seamless User Experiences"
                 />
                 <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-                    Hi, I&apos;m Hamza, an aspiring Software Engineer in Toronto.
+                    Hi, I&apos;m Hamza, a Software Engineer based in Toronto.
                 </p>
 
                 <a href='#about'>

@@ -158,31 +158,32 @@ export const companies = [
 export const workExperience = [
     {
         id: 1,
-        title: "Software Engineer Intern - Akhny Solutions",
-        desc: "Designed and developed responsive web and mobile applications using React.js, optimizing performance and user engagement.",
-        className: "md:col-span-2",
+        title: "Devops Engineer Intern - Canada Life",
+        desc: "Automated provisioning using Infrastructure as Code, helped reduce Kafka configuration time from one hour to five minutes.",
+        className: "md:col-span-2", 
         thumbnail: "/exp1.svg",
+
     },
     {
         id: 2,
+        title: "Business Systems Analyst - Canada Life",
+        desc: "Elicited integration product requirements using Jira and Confluence, collaborating with architects to implement scalable AWS solutions and improving process efficiency.",
+        className: "md:col-span-2", 
+        thumbnail: "/exp2.svg",
+    }, 
+    {
+        id: 3,
+        title: "Software Engineer Intern - Akhny Solutions",
+        desc: "Designed and developed responsive web and mobile applications using React.js, optimizing performance and user engagement.",
+        className: "md:col-span-2",
+        thumbnail: "/exp4.svg",
+    },
+    {
+        id: 4,
         title: "Programming Instructor - Code Ninjas",
         desc: "Led hands-on game development sessions using Unity and C#, achieving a significant increase in student advancement.",
         className: "md:col-span-2", 
         thumbnail: "/exp3.svg",
-    }, 
-    {
-        id: 3,
-        title: "Lead Developer - DevGenie",
-        desc: "Led full-stack development using React.js and Express.js, improving performance with optimization techniques.",
-        className: "md:col-span-2", 
-        thumbnail: "/exp2.svg",
-    },
-    {
-        id: 4,
-        title: "Technical Specialist - GDSC",
-        desc: "Provided JavaScript development support, enhancing user experience of Google Student Dev club projects.",
-        className: "md:col-span-2",
-        thumbnail: "/exp4.svg",
     },
 ];
 
